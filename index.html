@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css">
+    <title></title>
+</head>
+<body>
+    <!--Navbar-->
+        <nav class="bg-deepBlue">
+            <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+    
+                <!-- logo -->
+                <a href="/" class="cursor-pointer py-7 pr-7">
+                    <img
+                    src="./images/logo.svg"
+                    width="125px"
+                    height="30px"/>
+                </a>
+
+                <ul class="flex space-x-6">
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Payments</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue group-hover:block"></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Banking</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue group-hover:block"></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Corporate Card</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue"></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Payroll</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue "></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Resources</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue group-hover:block"></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Support</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue group-hover:block"></div>
+                    </li>
+
+                    <li class="relative text-white transition-all duration-200 font-mullish py-7 hover:text-lightBlue group">
+                        <a href="#">Pricing</a>
+                        <div class="absolute hidden w-full h-1 bg-lightBlue group-hover:block"></div>
+                    </li>
+
+                </ul>
+                <div class="flex items-center space-x-6">
+                    <img src="images/green flag.png"
+                      width="28px"
+                     height="20px"
+                     > 
+
+                     <button class="px-5 py-3 text-sm font-bold text-white border rounded-sm font-mullish border-sky-500">Log in</button>
+                     <button class="flex px-4 py-3 text-sm font-bold transition-all duration-200 bg-white border rounded-sm text-sky-300 font-mullish hover:text-sky-500">Sign Up
+                       <img src="images/Arrow.png"
+                       width="28px"
+                     height="20px"
+                     > 
+
+                     </button>
+                </div>
+            </div>
+    </nav>
+    <section class="relative bg-deepBlue">
+    <!--Hero Section-->
+    <div class=" max-w-[1080px] flex flex-row items-center justify-between mx-auto w:10/12">
+        <!--left part-->
+        <div class="space-y-8" >
+            <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance,grow your buisness</h1>
+            <div class="w-6 h-1 bg-green-300"></div>
+            <p class="font-mullish text-[18px] leading-7 text-white opacity-70 ">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+            <button class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:text-sky-500 transition-all duration-200 py-[14px] px-[18px]">Sign Up Now</button>
+        </div>
+
+        <!--right part-->
+        <div>
+            <img src="images/hero-illustration.jpg" alt=""
+            class="w-full max-w-[680px]">
+        </div>
+    </div>
+    <!--shape part-->
+    <div class="absolute left-0 right-0 w-full">
+        <img src="images/shape1.png" alt=""
+        class="object-fill w-full scale-x-100">
+    </div>
+</section>
+</body>
+</html>
